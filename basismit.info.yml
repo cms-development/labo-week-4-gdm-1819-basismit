@@ -1,0 +1,19 @@
+name: 'Basismit'
+description: 'Dit thema is gewoon geweldig'
+type: 'theme'
+core: 8.x
+
+libraries:
+  - basismit/fontawesome
+  - basismit/bootstrap_local
+  - basismit/global-css
+  - basismit/global-js
+
+regions:
+    header: 'Header'
+    mainNavigation: 'Main navigation'
+    subheaderLeft: 'Subheader left'
+    subheaderRight: 'Subheader right'
+    content: 'Main content'
+    sidebar: 'Sidebar'
+    footer: 'Footer'

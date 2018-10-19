@@ -1,0 +1,86 @@
+.teaser {
+  margin-bottom: 20px;
+}
+.nav-item {
+  padding-right: 10px;
+}
+body {
+  background: url("../src/symphony.png") repeat;
+
+  h1, h2, h3, h4, h5, h1 a, h2 a, h3 a, h4 a, h5 a  {
+    color: darkslategray;
+  }
+  a {
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: none;
+  }
+}
+header {
+  background-color: darkslategray;
+  margin-bottom: 1rem;
+  #block-basismit-branding a {
+    font-size: 35pt;
+  }
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  a:hover {
+    color:white;
+    text-decoration: none;
+  }
+}
+.subheader {
+  margin-top: -1rem;
+  background-color: darkslateblue;
+  margin-bottom: 1rem;
+  .left {
+    p {
+      margin: 0;
+      font-size: 25pt;
+      color: white;
+    }
+  }
+  .right {
+    a {
+      color: white;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: none;
+    }
+  }
+}
+.contextual-region {
+  ul.actions {
+    padding: 0;
+    li {
+      display: inline-block;
+      padding: 10px;
+      margin-right: 10px;
+      background-color: darkslategray;
+      border-radius: 25%;
+      list-style-type: none;
+      a {
+        color: white;
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: none;
+      }
+    }
+  }
+}
+footer {
+  background-color: darkslateblue;
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  a:hover {
+    color:white;
+    text-decoration: none;
+  }
+}
