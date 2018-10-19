@@ -20,8 +20,15 @@ body {
 header {
   background-color: darkslategray;
   margin-bottom: 1rem;
-  #block-basismit-branding a {
-    font-size: 35pt;
+  #block-basismit-branding {
+
+    a {
+      display: inline-block;
+      font-size: 35pt;
+      img {
+        width: 70px;
+      }
+    }
   }
   a {
     color: white;

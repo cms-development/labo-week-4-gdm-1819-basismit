@@ -17,7 +17,10 @@ header {
   background-color: darkslategray;
   margin-bottom: 1rem; }
   header #block-basismit-branding a {
+    display: inline-block;
     font-size: 35pt; }
+    header #block-basismit-branding a img {
+      width: 70px; }
   header a {
     color: white;
     text-decoration: none; }
